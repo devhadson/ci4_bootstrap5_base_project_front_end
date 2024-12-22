@@ -1,0 +1,45 @@
+CRITICAL - 2024-09-22 22:02:45 --> ErrorException: Undefined variable $system_name
+[Method: GET, Route: Home/contact]
+in APPPATH\Views\layouts\main.php on line 244.
+ 1 APPPATH\Views\layouts\main.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $system_name', 'C:\\xampp81\\htdocs\\ci4_base_project_front_end\\app\\Views\\layouts\\main.php', 244)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp81\\htdocs\\ci4_base_project_front_end\\app\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\public\\contact', [], true)
+ 6 APPPATH\Controllers\Home.php(39): view('pages\\public\\contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 22:03:36 --> ErrorException: Undefined variable $developer_name
+[Method: GET, Route: Home/contact]
+in APPPATH\Views\layouts\main.php on line 245.
+ 1 APPPATH\Views\layouts\main.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developer_name', 'C:\\xampp81\\htdocs\\ci4_base_project_front_end\\app\\Views\\layouts\\main.php', 245)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp81\\htdocs\\ci4_base_project_front_end\\app\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\public\\contact', [], true)
+ 6 APPPATH\Controllers\Home.php(39): view('pages\\public\\contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 22:04:54 --> ErrorException: Undefined variable $system_name
+[Method: GET, Route: Home/contact]
+in APPPATH\Views\layouts\main.php on line 244.
+ 1 APPPATH\Views\layouts\main.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $system_name', 'C:\\xampp81\\htdocs\\ci4_base_project_front_end\\app\\Views\\layouts\\main.php', 244)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp81\\htdocs\\ci4_base_project_front_end\\app\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\public\\contact', [], true)
+ 6 APPPATH\Controllers\Home.php(39): view('pages\\public\\contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
